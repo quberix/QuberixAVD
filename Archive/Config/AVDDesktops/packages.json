@@ -1,0 +1,123 @@
+{
+    "Common": {
+        "fslogix": {
+            "Type": "Choco",
+            "Package": "fslogix",
+            "Parameters": "",
+            "Custom": ""
+        },
+        "powershell-core": {
+            "Type": "Choco",
+            "Package": "powershell-core",
+            "Parameters": "/core /desktop",
+            "Custom": ""
+        },
+        "7zip": {
+            "Type": "Choco",
+            "Package": "7zip.install",
+            "Parameters": "",
+            "Custom": ""
+        }
+    },
+    "AzureTools": {
+        "StorageExplorer": {
+            "Type": "Choco",
+            "Package": "microsoftazurestorageexplorer",
+            "Parameters": "",
+            "Custom": ""
+        },
+        "azcopy": {
+            "Type": "Choco",
+            "Package": "azcopy10",
+            "Parameters": "",
+            "Custom": ""
+        },
+        "az.powershell": {
+            "Type": "Choco",
+            "Package": "az.powershell",
+            "Parameters": "",
+            "Custom": ""
+        }
+    },
+    "DataTools": {
+        "AzureDataStudio": {
+            "Type": "Choco",
+            "Package": "azure-data-studio",
+            "Parameters": "",
+            "Custom": ""
+        },
+        "SQLPackage": {
+            "Type": "Choco",
+            "Package": "sqlpackage",
+            "Parameters": "",
+            "Custom": ""
+        },
+        "SSMS": {
+            "Type": "Choco",
+            "Package": "sql-server-management-studio",
+            "Parameters": "",
+            "Custom": ""
+        },
+        "KDiff": {
+            "Type": "Repo",
+            "Package": "kdiff3-1.9.2-windows-64-cl.exe",
+            "Parameters": "/S",
+            "Custom": ""
+        }
+    },
+    "DeveloperLite": {
+        "VSCode": {
+            "Type": "Choco",
+            "Package": "vscode",
+            "Parameters": "/NoDesktopIcon",
+            "Custom": ""
+        },
+        "Git": {
+            "Type": "Choco",
+            "Package": "git",
+            "Parameters": "/GitAndUnixToolsOnPath /SChannel /Editor:VisualStudioCode",
+            "Custom": ""
+        },
+        "GitExtensions": {
+            "Type": "Choco",
+            "Package": "gitextensions",
+            "Parameters": "INSTALLDESKTOPSHORTCUT=0",
+            "Custom": ""
+        }
+    },
+    "Developer": {
+        "Python3": {
+            "Type": "Choco",
+            "Package": "python3",
+            "Parameters": "",
+            "Custom": ""
+        },
+        "PythonLibs": {
+            "Type": "Python",
+            "Package": "PythonListDeveloper.txt",
+            "Parameters": "install -r",
+            "Custom": ""
+        },
+        "VS2019": {
+            "Type": "Choco",
+            "Package": "visualstudio2019professional",
+            "Parameters": "--add Microsoft.VisualStudio.Workload.Data --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.DataScience --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Python --add Microsoft.VisualStudio.Component.AzureDevOps.OfficeIntegration --includeRecommended --locale en-GB --no-update",
+            "Custom": ""
+        }
+    },
+    "Browsers": {
+        "Python3": {
+            "Type": "Winget",
+            "Package": "googlechrome",
+            "Parameters": "",
+            "Custom": ""
+        },
+        "VS2019": {
+            "Type": "Choco",
+            "Package": "firefox",
+            "Parameters": "",
+            "Custom": ""
+        }
+    }
+    
+}

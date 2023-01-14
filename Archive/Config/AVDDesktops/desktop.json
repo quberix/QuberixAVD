@@ -1,0 +1,5 @@
+{
+    "Analyst": ["Common","DataTools","Browsers"],
+    "Developer": ["Common","AzureTools", "DeveloperLite","Developer","Browsers"],
+    "Administrator": ["Common","AzureTools", "DeveloperLite","Browsers"]
+}
