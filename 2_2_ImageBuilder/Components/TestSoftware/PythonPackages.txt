@@ -1,0 +1,7 @@
+# Analyst desktop module requirements
+wheel
+pandas
+requests
+pytest
+databricks-cli
+virtualenvwrapper

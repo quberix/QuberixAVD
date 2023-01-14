@@ -1,0 +1,3 @@
+[submodule "MSResourceModules"]
+	path = MSResourceModules
+	url = https://github.com/Azure/ResourceModules.git
