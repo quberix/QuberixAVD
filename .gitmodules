@@ -1,3 +1,6 @@
 [submodule "MSResourceModules"]
 	path = MSResourceModules
 	url = https://github.com/Azure/ResourceModules.git
+[submodule "ResourceModules"]
+	path = ResourceModules
+	url = https://github.com/Azure/ResourceModules.git
